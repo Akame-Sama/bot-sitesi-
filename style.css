@@ -1,0 +1,494 @@
+:root{
+--yrenk1: #ffdbfe;
+--yrenk2: #bcebff;
+--yrenk3: #bcffc9;
+--yrenk4: #ffdead;
+--yrenk5: #d089ce;
+--yrenk6: #ecaeea;
+--yrenk7: #6cbfe2;
+
+--arka1: #292a2d;
+--arka2: #303136;
+--arka3: #181818;
+
+  /** Yazi renkleri **/
+  --baslikrenk : #5B64EF;
+  --aciklamarenk : #AEAEAE;
+  --aciktemaciklama : #a5a5a5;
+  --aciktemabaslik : black;
+  /**arka planlar**/
+  --arkaplan : #181818;
+  --menurenk : #23272a;
+  /**button**/
+  --butonborder : #ff5349;
+  /**footer**/
+  --footerarkaplan : #131313;
+  --sosyal: #181818;
+  /**Footer sosyal medialar**/
+  --facebook: #3b5998;
+  --twitter: #1faee9;
+  --github: #171515;
+  --env: #79ff65;
+  --up: #ffdbfe;
+  --linkedin: #2867B2;
+  --youtube: #c4302b;
+  --instagram1: #405DE6;
+  --instagram2: #5851DB;
+  --instagram3:#833AB4;
+  --instagram4:#C13584;
+  --instagram5:#E1306C;
+  --instagram6: #FD1D1D;
+  --instagram7:#F56040;
+  --instagram8: #F77737;
+  --instagram9:#FCAF45;
+  --instagram10:#FFDC80;
+  /**Footer sosyal medialar RGB**/
+  --twitterrgb:68, 204, 246;
+  --facebookrgb:59, 89, 152;
+  --linkedinrgb: 0, 119, 181;
+  --githubrgb: 54, 70, 93;
+  --youtubergb: 230, 33, 23;
+  --instagramrgb: 81, 91, 212;
+  --uprgb: 100, 85, 99;
+
+  /** Yazi renkleri **/
+  --baslikrenk : #5B64EF;
+  --aciklamarenk : #AEAEAE;
+  --aciktemaciklama : #a5a5a5;
+  --aciktemabaslik : black;
+  /**arka planlar**/
+  --arkaplan : #181818;
+  --menurenk : #23272a;
+  /**Buton renkleri**/
+    --buton: #5B64EF;
+}
+.footer-distributed {
+  background-color: var(--footerarkaplan);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding: 45px 50px;
+}
+.footer-distributed .footer-left p {
+  color: #8f9296;
+  font-size: 14px;
+  margin: 0;
+}
+/**============================[Footer #2]============================**/
+/**                              Linkler                              **/
+/**============================[---------]============================**/
+.footer-distributed p.footer-links {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
+  transition: ease .25s;
+}
+.footer-distributed p.footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+  transition: ease .25s;
+}
+.footer-distributed .footer-links a:before {
+  content: "·";
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+.footer-distributed .footer-right {
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
+}
+.footer-distributed .footer-right a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: var(--sosyal);
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 3px;
+  transition:all .25s;
+  margin-bottom: 6px;
+}
+svg {
+  bottom: 0;
+  width: 100%;
+  height: auto;
+}
+section {
+  width: 100%;
+  display: inline-block;
+  background: #181818;
+  height: 60vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+/**============================[Footer #3]============================**/
+/**                          Sosyal medyalar                          **/
+/**============================[---------]============================**/
+#facebook:hover{
+background-color:var(--facebook);
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(var(--facebookrgb));
+   -moz-box-shadow:    0px 0px 10px 0px rgba(var(--facebookrgb));
+   box-shadow:         0px 0px 10px 0px rgba(var(--facebookrgb));
+}
+#twitter:hover{
+  background-color:var(--twitter);
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(var(--twitterrgb));
+   -moz-box-shadow:    0px 0px 10px 0px rgba(var(--twitterrgb));
+   box-shadow:         0px 0px 10px 0px rgba(var(--twitterrgb));
+}
+#github:hover{
+  background-color:var(--github);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(var(--githubrgb));
+   -moz-box-shadow:    0px 0px 10px 0px rgba(var(--githubrgb));
+   box-shadow:         0px 0px 10px 0px rgba(var(--githubrgb));
+}
+#env:hover{
+  background-color:var(--env);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(var(--githubrgb));
+   -moz-box-shadow:    0px 0px 10px 0px rgba(var(--githubrgb));
+   box-shadow:         0px 0px 10px 0px rgba(var(--githubrgb));
+}
+#linkedin:hover{
+  background-color:var(--linkedin);
+   -webkit-box-shadow: 0px 0px 10px 0px rgba(var(--linkedinrgb));
+   -moz-box-shadow:    0px 0px 10px 0px rgba(var(--linkedinrgb));
+   box-shadow:         0px 0px 10px 0px rgba(var(--linkedinrgb));
+}
+
+#youtube:hover{
+  background-color:var(--youtube);
+ -webkit-box-shadow: 0px 0px 10px 0px rgba(var(--youtubergb));
+   -moz-box-shadow:    0px 0px 10px 0px rgba(var(--youtubergb));
+   box-shadow:         0px 0px 10px 0px rgba(var(--youtubergb));
+}
+#instagram:hover{
+ background-color: var(--instagram4);
+  webkit-box-shadow: 0px 0px 10px 0px rgba(var(--instagramrgb));
+   -moz-box-shadow:    0px 0px 10px 0px rgba(var(--instagramrgb));
+   box-shadow:         0px 0px 10px 0px rgba(var(--instagramrgb));
+}
+#up:hover{
+  border-radius: 15%;
+ background-color: var(--up);
+  webkit-box-shadow: 0px 0px 10px 0px rgba(var(--uprgb));
+   -moz-box-shadow:    0px 0px 10px 0px rgba(var(--uprgb));
+   box-shadow:         0px 0px 10px 0px rgba(var(--uprgb));
+}
+/**============================[Footer #4]============================**/
+/**                             Animasyon                             **/
+/**============================[---------]============================**/
+.footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
+.footer-distributed p.footer-links a:hover{text-decoration:underline;}
+/**============================[Footer #5]============================**/
+/**                               Media                               **/
+/**============================[---------]============================**/
+@media (max-width: 600px) {
+  .footer-distributed .footer-left, .footer-distributed .footer-right {
+    text-align: center;
+  }
+  .footer-distributed .footer-right {
+    float: none;
+    margin: 0 auto 20px;
+  }
+  .footer-distributed .footer-left p.footer-links {
+    line-height: 1.8;
+  }
+}
+.yukarı{
+  float: auto;
+  margin-top: 6px;
+  max-width: 180px;
+  color:#9B658B;
+  border-radius: 60%;
+padding: auto;
+text-align: center;
+margin: auto;
+color: #FFDBFE;
+font-family: sans-serif;
+}
+.yukarı a{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: var(--sosyal);
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 3px;
+  transition:all .25s;
+  margin-bottom: 6px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lobster&family=Shadows+Into+Light&display=swap');
+/**-|  |-**/
+body{
+  padding: 0;
+  margin: 0;
+  background-color: var(--arka2);
+}
+.brenk1{
+  color: var(--yrenk2)
+}
+.brenk2{
+  color: var(--yrenk4)
+}
+.brenk3{
+  color: var(--yrenk1)
+}
+.brenk4{
+  color: var(--yrenk5)
+}
+.brenk5{
+  color: var(--yrenk7)
+}
+.bot{
+  border-radius: 15%;
+  width: 450px;
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 10%;
+  color: var(--yrenk5);
+  font-family: sans-serif;
+  background:  var(--arka1);
+}
+.bot img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.bot img:hover{
+  transform: scale(0.8);
+}
+.bot h1{
+  font-size: 40px;
+letter-spacing: 4px;
+font-weight: 100;
+font-family: 'Lobster', cursive;
+}
+.bot h4{
+  font-size: 25px;
+  letter-spacing: 1px;
+  font-weight: 100;
+font-family: 'Shadows Into Light', cursive;
+}
+.bot a{
+  color: var(--yrenk5);
+  letter-spacing: 7px;
+  font-size: 80px;
+  transition: all ease-in-out 400ms;
+
+}
+.bot a:hover{
+  color: var(--yrenk6);
+
+}
+.bot i{
+transition: 0.4s;
+background:  var(--arka1);
+}
+.bot i:hover{
+  transform: scale(0.7);
+
+}
+.komut{
+  border-radius: 15px;
+  float:left;
+  width: 450px;
+  padding: 40px;
+  text-align: center;
+  margin: 40px;
+  margin-top: 10%;
+  color: var(--yrenk5);
+  font-family: sans-serif;
+  background:  var(--arka1);
+}
+.komut h1{
+    font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+  font-family: 'Shadows Into Light', cursive;
+}
+.komut h4{
+font-size: 25px;
+letter-spacing: 1px;
+font-weight: 100;
+font-family: 'Anton', sans-serif;
+}
+.komut p{
+  font-size: 27px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.gif{
+background: url(arka.png) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+text-align: center;
+width: 100%;
+height: 360px;
+margin-top:auto;
+margin-left:auto;
+margin-right:auto;
+color: #ffdbfe;
+font-family: 'Lobster', cursive;
+}
+.gif h1{
+  font-size: 80px;
+}
+body::-webkit-scrollbar {
+  width: 15px;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--arka3);
+}
+
+body::-webkit-scrollbar-thumb {
+   background: linear-gradient(var(--yrenk1),var(--yrenk6));
+  border-radius: 20px;
+  border: 1px solid #333;
+}
+    a{
+      text-decoration: none;
+    }
+  ul.mobmen {
+    text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+    border: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   background-color: var(--arka3);
+}
+ul.mobmen li {float: left;}
+ul.mobmen li a {
+    font-size: 30px;
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+    font-family: 'Lobster', cursive;
+}
+ul.mobmen li h1 {
+    font-size: 30px;
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+    font-family: 'Lobster', cursive;
+}
+ul.mobmen li a:hover { background-color: #333;
+                      transition: all 3s;
+                      border-bottom: 2px solid white;}
+ul.mobmen li.icon {display: none;}
+
+@media screen and (max-width:670px) {
+  ul.mobmen li:not(:first-child) {display: none;}
+  ul.mobmen li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:670px) {
+  ul.mobmen.responsive {position: relative;}
+  ul.mobmen.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.mobmen.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.mobmen.responsive li a {
+    display: block;
+    text-align: left;
+  }
+  ul.mobmen.responsive li h1 {
+    display: block;
+    text-align: left;
+  }
+  @import url("https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+  @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+  @import url("https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+
+  @font-face {
+      font-family: 'uni_sansheavy';
+      src: url('https://cdn.glitch.com/9f11fa91-fa09-4b95-93f6-293640b1fb88%2Funi_sans_heavy-webfont.woff2') format('woff2'),
+           url('https://cdn.glitch.com/9f11fa91-fa09-4b95-93f6-293640b1fb88%2Funi_sans_heavy-webfont.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+  }
+  @font-face {
+      font-family: 'sugo_pro_classic_triallight';
+      src: url('https://cdn.glitch.com/9f11fa91-fa09-4b95-93f6-293640b1fb88%2Funi_sans_semibold-webfont.woff2?v=1626014629684') format('woff2'),
+           url('https://cdn.glitch.com/9f11fa91-fa09-4b95-93f6-293640b1fb88%2Fsugo-pro-classic-light-trial-webfont.woff?v=1626015071055') format('woff');
+      font-weight: normal;
+      font-style: normal;
+  }
+
+  body{
+    margin:auto;
+    background-color:var(--arkaplan);
+  }
+  .komut{
+    width:60%;
+    background-color:var(--menurenk);
+    height: 400px;
+    float:left;
+  }
+  .komutlar{
+    font-family:verdana;
+    font-size:20px;
+    width:80%;
+    padding-left:10px;
+    color:#fff;
+    background-color:var(--menurenk);
+    float:left;
+  }
+  .komutmenu{
+    width: 30%;
+    height:400px;
+    margin-right: 5%;
+    background-color:var(--menurenk);
+    float:left;
+  }
+  .komutmenu button{
+    border:none;
+    height:50px;
+    width:100%;
+    color:#fff;
+    background-color:var(--buton);
+    margin-bottom:2px;
+  }

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>KannaBot - Site</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="KannaWhat.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Lobster&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <ul class="mobmen" id="mymobmen">
+    <li><h1><span class="brenk3">Kanna</span><span class="brenk1">Bot</span></h1></li>
+    <li><a href="index.html" style="font:normal 30px Cookie,cursive;"><i class="fa fa-home"></i> Anasayfa</a></li>
+    <li><a href="komutlar.html" style="font:normal 30px Cookie,cursive;"><i class="fa fa-cogs"></i> Komutlar</a></li>
+    <li>
+  <li class="icon">
+    <a href="javascript:void(0);" onclick="ackapa()">&#9776;</a>
+  </li>
+</ul>
+ <div class="bot">
+   <div class="botpp">
+     <a href="botpp.gif"><img src="botpp.gif"></a>
+   </div>
+   <div class="bkz">
+     <h1><span class="brenk3">Kanna</span><span class="brenk1">Bot</span></h1>
+     <h4><span class="brenk3">Kanna</span><span class="brenk1">Bot</span> <span class="brenk2">hızlı</span>, <span class="brenk2">güvenli</span> ve <span class="brenk2">muhteşem</span>dir.</h4>
+     <p>Davet Et!<i class="fas fa-rocket"></i> | Oy Ver!<i class="fas fa-arrow-circle-up"></i> | Destek Sunucusu!<i class="fas fa-globe"></i></p>
+   </div>
+   <div class="buton">
+     <a href="davet-link"><i class="fas fa-rocket"></i></a>
+     <a href="oy-link"><i class="fas fa-arrow-circle-up"></i></a>
+     <a href="sunucu-link"><i class="fas fa-globe"></i></a>
+   </div>
+ </div>
+ <br><br><br><br><br><br><br><br><br><br>
+ <div class="yukarı">
+   <a href="#"id="up"><i class="fas fa-chevron-circle-up"></i></a>
+ </div>
+ <svg id="svg" xmlns="http://www.w3.org/2000/svg" viewBox="-300 0 950 270" >
+     <path d="M-314,267 C105,364 400,100 812,279" fill="none" stroke="#131313" stroke-width="120" stroke-linecap="round"/></svg>
+
+     <footer class="footer-distributed">
+
+       <div class="footer-right">
+
+         <a href="#" id="facebook"><i class="fab fa-facebook"></i></a>
+         <a href="#" id="twitter"><i class="fab fa-twitter"></i></a>
+         <a href="#" id="linkedin"><i class="fab fa-linkedin"></i></a>
+         <a href="#" id="github"><i class="fab fa-github"></i></a>
+         <a href="#" id="env"><i class="fas fa-envelope"></i></a>
+         <a href="#" id="youtube"><i class="fab fa-youtube"></i></a>
+         <a href="#" id="instagram"><i class="fab fa-instagram"></i></a>
+       </div>
+
+       <div class="footer-left">
+
+         <p class="footer-links">
+           <a class="link-1" href="#">Anasayfa</a>
+           <a href="#">Hakkında</a>
+           <a href="#">SSS</a>
+         </p>
+
+         <p>Codetron - Rick Code&copy; <b>2021-</b><b id="yil"></b></p>
+       </div>
+
+     </footer>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+
+    function ackapa() {
+        var ac = ac + 1;
+        var x = document.getElementById("mymobmen");
+        if (x.className === "mobmen") {
+            x.className += " responsive";
+        } else {
+            x.className = "mobmen";
+        }
+    }
+    document.getElementById("yil").innerHTML = new Date().getFullYear();
+
+
+    function buton1() {
+$("#general-1").hide()
+$("#general-2").hide()
+$("#general-3").hide()
+$("#general-4").hide()
+$("#general-5").hide()
+$("#leveling-1").hide()
+$("#leveling-2").hide()
+$("#leveling-3").hide()
+$("#leveling-4").hide()
+$("#leveling-5").hide()
+$("#moderation-1").show()
+$("#moderation-2").show()
+$("#moderation-3").show()
+$("#moderation-4").show()
+$("#moderation-5").show()
+}
+
+function buton2() {
+$("#general-1").hide()
+$("#general-2").hide()
+$("#general-3").hide()
+$("#general-4").hide()
+$("#general-5").hide()
+$("#leveling-1").show()
+$("#leveling-2").show()
+$("#leveling-3").show()
+$("#leveling-4").show()
+$("#leveling-5").show()
+$("#moderation-1").hide()
+$("#moderation-2").hide()
+$("#moderation-3").hide()
+$("#moderation-4").hide()
+$("#moderation-5").hide()
+}
+function buton3() {
+$("#general-1").show()
+$("#general-2").show()
+$("#general-3").show()
+$("#general-4").show()
+$("#general-5").show()
+$("#leveling-1").hide()
+$("#leveling-2").hide()
+$("#leveling-3").hide()
+$("#leveling-4").hide()
+$("#leveling-5").hide()
+$("#moderation-1").hide()
+$("#moderation-2").hide()
+$("#moderation-3").hide()
+$("#moderation-4").hide()
+$("#moderation-5").hide()
+}
+function buton4(){
+$("#general-1").show()
+$("#general-2").show()
+$("#general-3").show()
+$("#general-4").show()
+$("#general-5").show()
+$("#leveling-1").show()
+$("#leveling-2").show()
+$("#leveling-3").show()
+$("#leveling-4").show()
+$("#leveling-5").show()
+$("#moderation-1").show()
+$("#moderation-2").show()
+$("#moderation-3").show()
+$("#moderation-4").show()
+$("#moderation-5").show()
+}
+</script>
+  </body>
+</html>
